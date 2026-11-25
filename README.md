@@ -1,6 +1,10 @@
+![pharaprase-id banner](./assets/banner.jpg)
+
 # pharaprase-id
 
-Skill agen AI (*agent skill*) khusus **parafrasa, audit, dan tulis ulang naskah akademik berbahasa Indonesia** untuk menghilangkan pola tulisan AI (*AI-isms*), kalke terjemahan Inggris–Indonesia, nominalisasi bertumpuk, dan klaim berlebihan — sambil menjaga makna asli, angka, sitasi, rumus, kaidah **EYD V / KBBI**, dan suara ilmiah penulis.
+## Tentang (About)
+
+**`pharaprase-id`** adalah skill agen AI (*agent skill*) khusus **parafrasa, audit, dan tulis ulang naskah akademik berbahasa Indonesia** (artikel jurnal Sinta/Scopus, skripsi, tesis, disertasi, prosiding, tanggapan *reviewer*, dan proposal hibah). Skill ini dirancang untuk menghilangkan pola tulisan AI (*AI-isms*), kalke terjemahan Inggris–Indonesia, nominalisasi bertumpuk, dan klaim berlebihan — sambil menjaga makna asli, angka, sitasi, rumus, kaidah **EYD V / KBBI**, dan suara ilmiah penulis.
 
 Menggabungkan disiplin kontrak penyuntingan, sistem *severity tier* (P0–P2), tiga mode operasi, dan guardrail anti-slop dari [conorbronsdon/avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) yang dirancang khusus untuk **konteks akademik Indonesia**.
 
@@ -34,6 +38,8 @@ Menggabungkan disiplin kontrak penyuntingan, sistem *severity tier* (P0–P2), t
 
 ```text
 pharaprase-id/
+├── assets/
+│   └── banner.jpg                # Banner repositori
 ├── SKILL.md                      # Instruksi utama (kontrak akademik, mode, P0–P2, guardrail, output)
 ├── README.md                     # Dokumentasi & panduan pemasangan
 ├── LICENSE                       # Lisensi MIT
