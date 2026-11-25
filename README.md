@@ -1,23 +1,32 @@
 # pharaprase-id
 
-Skill agen AI (*agent skill*) berbahasa Indonesia untuk **mengaudit, memparafrasa, dan menulis ulang teks** agar bebas dari pola tulisan AI (*AI-isms*), kalke terjemahan Inggris–Indonesia, nominalisasi bertumpuk, dan frasa klise — tanpa mengorbankan makna asli, fakta, maupun suara penulis.
+Skill agen AI (*agent skill*) khusus **parafrasa, audit, dan tulis ulang naskah akademik berbahasa Indonesia** untuk menghilangkan pola tulisan AI (*AI-isms*), kalke terjemahan Inggris–Indonesia, nominalisasi bertumpuk, dan klaim berlebihan — sambil menjaga makna asli, angka, sitasi, rumus, kaidah **EYD V / KBBI**, dan suara ilmiah penulis.
 
-Diadaptasi dari filosofi, kontrak penyuntingan, sistem *severity tier*, profil konteks, dan profil suara [conorbronsdon/avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing), lalu dirancang khusus untuk struktur dan kaidah **Bahasa Indonesia**.
+Menggabungkan disiplin kontrak penyuntingan, sistem *severity tier* (P0–P2), tiga mode operasi, dan guardrail anti-slop dari [conorbronsdon/avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) yang dirancang khusus untuk **konteks akademik Indonesia**.
 
-> **Prinsip Utama:** Ini adalah alat peningkatan kualitas tulisan, bukan alat vonis detektor AI dan bukan alat untuk menghindari kebijakan pengungkapan penggunaan AI.
+> **Prinsip Utama:** Skill ini adalah alat peningkatan kualitas dan kejelasan tulisan akademik, bukan vonis detektor AI dan bukan alat untuk menghindari pengungkapan penggunaan AI maupun plagiarisme.
 
 ---
 
 ## Fitur Utama
 
-- **Tiga Mode Operasi:**
+- **Tiga Mode Operasi (`--mode`):**
   - `rewrite` *(default)* — Audit → Parafrasa/Tulis Ulang (maks. 2 putaran) → Ringkasan Perubahan → Verifikasi terstruktur.
-  - `detect` — Audit saja tanpa mengubah teks (dikelompokkan dalam **P0 / P1 / P2** + penilaian *clear problem* vs. *judgment call*).
-  - `edit` — Sunting file prosa/Markdown secara langsung (*in-place*) dengan perubahan minimal sambil melindungi kode, tabel, kutipan, dan frontmatter.
-- **Katalog Pola Khusus Bahasa Indonesia:** Tier kata 1A/1B/2/3, kalke terjemahan Inggris–Indonesia (*"adalah penting untuk dicatat"*, *"memainkan peran kunci"*, *"...yang mana..."*), nominalisasi bertumpuk, paralelisme negatif, dan ekor partisipial.
-- **Kontrak Penyuntingan & Guardrail Anti-Slop:** Menjaga kesetiaan fakta (*source fidelity*), konten terlindungi (*protected content*), aturan *no-op* (0 suntingan bila teks sudah bersih), dan melarang penyuntikan "gaya humanizer palsu" (*staccato* paksaan, *"Jujur saja,"*, pengalaman fiktif).
-- **7 Profil Konteks (`--context`):** `linkedin`, `blog`, `technical-blog`, `email-bisnis`, `docs`, `casual`, dan `akademik` lengkap dengan matriks toleransi.
-- **5 Profil Suara (`--voice`):** `santai`, `profesional`, `teknis`, `hangat`, dan `lugas`, plus kalibrasi dari contoh tulisan penulis.
+  - `detect` — Audit saja tanpa mengubah naskah (dikelompokkan dalam **P0 / P1 / P2** + penilaian *clear problem* vs. *judgment call*).
+  - `edit` — Sunting file naskah (`.md`, `.tex`, `.txt`) secara langsung (*in-place*) dengan perubahan minimal sambil melindungi sitasi, rumus, tabel, kode, dan frontmatter.
+- **Kontrak Penyuntingan Akademik & Guardrail Anti-Slop:** Menjaga integritas angka, *p-value*, sitasi, dan rumus; menyisipkan `[PENULIS: ...]` jika metrik hilang; aturan *no-op* (0 suntingan jika sudah bersih); dan melarang penyuntikan gaya humanizer palsu.
+- **5 Profil Konteks Akademik (`--context`):**
+  - `jurnal` *(default — Sinta 1–6 / Scopus)*
+  - `skripsi-tesis` *(skripsi, tesis, disertasi)*
+  - `prosiding` *(makalah konferensi)*
+  - `rebuttal` *(tanggapan reviewer)*
+  - `proposal-hibah` *(BIMA Kemdiktisaintek, RIIM BRIN, LPDP Rispro)*
+- **5 Profil Suara (`--voice`, berbahasa Inggris):**
+  - `formal` — Baku EYD V, objektif, impersonal
+  - `concise` — Ringkas, padat, hemat kata
+  - `technical` — Presisi istilah teknis & struktur metode
+  - `analytical` — Kuat di sintesis literatur & pembahasan kritis
+  - `diplomatic` — Sopan, objektif, konstruktif (ideal untuk *rebuttal*)
 
 ---
 
@@ -25,11 +34,11 @@ Diadaptasi dari filosofi, kontrak penyuntingan, sistem *severity tier*, profil k
 
 ```text
 pharaprase-id/
-├── SKILL.md                      # Instruksi utama (kontrak penyuntingan, mode, P0–P2, guardrail, output)
+├── SKILL.md                      # Instruksi utama (kontrak akademik, mode, P0–P2, guardrail, output)
 ├── README.md                     # Dokumentasi & panduan pemasangan
 ├── LICENSE                       # Lisensi MIT
 └── references/
-    └── pola-bahasa-id.md         # Tier kata ID, kalke terjemahan, matriks toleransi konteks, & profil suara
+    └── pola-bahasa-id.md         # Tier kata akademik ID, kalke terjemahan, EYD V, matriks konteks, & voice profiles
 ```
 
 ---
@@ -50,7 +59,8 @@ git clone https://github.com/maqidz/pharaprase-id.git ~/.claude/skills/pharapras
 
 ## Contoh Penggunaan
 
-- *"Parafrasa teks ini dengan skill `pharaprase-id` supaya lebih alami untuk blog."*
-- *"Audit saja pola AI di artikel ini (`--mode detect --context linkedin`), jangan ubah teksnya."*
-- *"Rapikan file `draft-artikel.md` langsung dengan gaya `--voice lugas --context technical-blog`."*
-- *"Tulis ulang email ini dengan `--context email-bisnis --voice profesional`."*
+- *"Parafrasa bagian Pendahuluan skripsi ini dengan skill `pharaprase-id` (`--context skripsi-tesis --voice formal`)."*
+- *"Audit saja abstrak artikel jurnal ini (`--mode detect --context jurnal`), jangan ubah teksnya."*
+- *"Rapikan `bab3-metode.tex` langsung dengan `--mode edit --context jurnal --voice technical`."*
+- *"Tulis ulang tanggapan reviewer ini dengan `--context rebuttal --voice diplomatic`."*
+- *"Padatkan paragraf pembahasan ini dengan `--voice concise` atau `--voice analytical`."*

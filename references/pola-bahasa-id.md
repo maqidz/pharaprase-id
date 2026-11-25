@@ -1,34 +1,35 @@
-# Katalog Pola Bahasa Indonesia, Profil Konteks & Profil Suara
+# Katalog Pola Akademik Bahasa Indonesia, Profil Konteks & Profil Suara
 
-Referensi lengkap untuk skill `pharaprase-id`. Baca dan terapkan aturan serta
-pengecualiannya sesuai profil konteks dan profil suara yang aktif.
+Referensi lengkap untuk skill `pharaprase-id` (khusus penulisan akademik
+berbahasa Indonesia). Baca dan terapkan aturan serta pengecualiannya sesuai
+profil konteks akademik dan profil suara yang aktif.
 
 ---
 
-## 1. Tier Kata & Frasa Bahasa Indonesia
+## 1. Tier Kata & Frasa Akademik Bahasa Indonesia
 
 ### Tier 1A — Penanda Frekuensi AI (Ganti Secara Default)
 Kecuali dipakai dalam makna teknis yang ketat, ganti kata-kata berikut:
 
-| Ganti | Alternatif Alami |
+| Ganti | Alternatif Akademik Alami |
 | :--- | :--- |
-| *menyelami / mendalami secara mendalam* | *membahas, memeriksa, meninjau* |
+| *menyelami / mendalami secara mendalam* | *mengkaji, menelaah, menganalisis* |
 | *menggarisbawahi / menyoroti* (berlebihan) | *menunjukkan, menegaskan, memperlihatkan* |
-| *lanskap* (metaforis: *lanskap digital/bisnis*) | *pasar, industri, ekosistem, bidang* |
-| *permadani / jalinan kompleks* (*tapestry*) | *gabungan, rangkaian, struktur* |
-| *bukti nyata* (*testament to*) | *menunjukkan bahwa, membuktikan* |
-| *ranah* (berlebihan) | *bidang, sektor, area* |
-| *sinergi* (klise korporat/AI) | *kerja sama, kolaborasi, keterpaduan* |
-| *holistik* (tanpa definisi) | *menyeluruh* (sebutkan cakupannya) |
-| *komprehensif* (tanpa ruang lingkup) | sebutkan jumlah/cakupan spesifik |
-| *mulus* (*seamless*) | *lancar, otomatis, tanpa hambatan [spesifik]* |
-| *krusial / vital / pivotal* (berlebihan) | *penting, utama, menentukan* (atau tunjukkan dampaknya) |
-| *transformatif / revolusioner / game-changer* | sebutkan perubahan konkretnya |
-| *bernuansa* (*nuanced*) | *rinci, berlapis, tidak hitam-putih* |
-| *multifaset / intrikat* | *beragam, rumit, memiliki beberapa sisi* |
+| *lanskap* (metaforis: *lanskap penelitian/digital*) | *perkembangan riset, bidang kajian, literatur* |
+| *permadani / jalinan kompleks* (*tapestry*) | *struktur, keterkaitan, kombinasi* |
+| *bukti nyata* (*testament to*) | *menunjukkan bahwa, mendukung temuan bahwa* |
+| *ranah* (berlebihan) | *bidang, domain, cakupan kajian* |
+| *sinergi* (klise tanpa definisi) | *keterpaduan, integrasi, interaksi* |
+| *holistik* (tanpa definisi operasional) | *menyeluruh* (sebutkan dimensi yang dicakup) |
+| *komprehensif / ekstensif* (tanpa ruang lingkup) | sebutkan jumlah dataset, sampel, atau skenario uji |
+| *mulus* (*seamless*) | *lancar, terintegrasi, tanpa hambatan [spesifik]* |
+| *krusial / vital / pivotal* (berlebihan) | *penting, utama, menentukan* (atau jelaskan dampaknya) |
+| *transformatif / revolusioner / terobosan besar* | jelaskan peningkatan atau perubahan teknis konkretnya |
+| *bernuansa* (*nuanced*) | *rinci, kontekstual, bervariasi menurut kondisi* |
+| *multifaset / intrikat* | *beragam, kompleks, melibatkan beberapa faktor* |
 
 ### Tier 1B — Perbaikan Kejelasan (Saran Gaya, Bukan Bukti Kepenulisan AI)
-- *memanfaatkan* (berulang) → *menggunakan, memakai*
+- *memanfaatkan* (berulang) → *menggunakan, menerapkan*
 - *melakukan implementasi / pelaksanaan pengujian* → *menerapkan / menguji*
 - *dalam rangka untuk / guna untuk* → *untuk*
 - *dikarenakan oleh fakta bahwa* → *karena*
@@ -36,101 +37,118 @@ Kecuali dipakai dalam makna teknis yang ketat, ganti kata-kata berikut:
 
 ### Tier 2 — Tandai Jika Muncul ≥2 Kali dalam Satu Paragraf
 *optimal/mengoptimalkan, efektif/efektivitas, inovatif, strategis, dinamis,
-berkelanjutan, adaptif, kolaboratif, terintegrasi, akselerasi, ekosistem,
-momentum, katalisator, pilar, fondasi*.
+berkelanjutan, adaptif, kolaboratif, terintegrasi, akselerasi, paradigma,
+fondasi, pilar*.
 
 *(Satu kemunculan wajar tidak perlu ditandai; tumpukan ≥2 kata dalam satu
-paragraf membuat prosa terdengar seperti brosur AI.)*
+paragraf membuat prosa akademik terasa generik.)*
 
-### Tier 3 — Frasa Klise (Tandai Jika Berulang ≥2× atau Mengelompok ≥3 Frasa)
-- *"Di era digitalisasi / globalisasi / AI saat ini..."*
-- *"Dalam dunia yang terus berubah dengan cepat..."*
+### Tier 3 — Frasa Klise Akademik (Tandai Jika Berulang ≥2× atau Mengelompok ≥3 Frasa)
+- *"Di era globalisasi / digitalisasi / industri 4.0 saat ini..."*
+- *"Dalam beberapa tahun terakhir, [X] telah menarik perhatian besar..."*
 - *"Tidak dapat dipungkiri bahwa..."*
-- *"Pada akhirnya, keberhasilan bergantung pada..."*
-- *"Satu hal yang jelas..."*
-- *"Di sinilah [X] hadir sebagai solusi..."*
+- *"Sepengetahuan penulis, penelitian ini adalah yang pertama..."*
+- *"Membuka jalan bagi paradigma baru / penelitian di masa depan..."*
 - *"Menjembatani kesenjangan antara teori dan praktik..."*
-- *"Membuka pintu menuju peluang baru..."*
+- *"Pada akhirnya, temuan ini memberikan wawasan berharga..."*
 
 ---
 
 ## 2. Kalke Terjemahan Inggris → Indonesia
 
-Pola sintaksis terjemahan kaku yang paling sering muncul di teks AI Indonesia:
+Pola sintaksis terjemahan kaku yang paling sering muncul pada draf akademik
+berbantuan AI:
 
-| Kalke (Hindari) | Bahasa Indonesia Alami |
+| Kalke (Hindari) | Bahasa Indonesia Akademik Alami |
 | :--- | :--- |
 | *Adalah penting untuk dicatat bahwa...* | *Perlu dicatat bahwa...* atau langsung tulis intinya |
 | *Memainkan peran kunci / penting dalam...* | *Berperan dalam...* / *Memengaruhi...* |
 | *...yang mana...* (kalke *which*) | *...yang...* atau pecah menjadi dua kalimat |
 | *...di mana...* (bukan penunjuk tempat, kalke *where*) | *...ketika...*, *...pada kondisi...*, *...yang menunjukkan...* |
 | *Berdasarkan fakta bahwa...* | *Karena...* / *Mengingat...* |
-| *Ketika datang ke [X]...* (*when it comes to*) | *Terkait [X]...* / *Untuk urusan [X]...* |
-| *Tidak hanya X, tetapi juga Y* / *Bukan sekadar X, melainkan Y* | Nyatakan langsung kedua poin tanpa bingkai dramatis |
-| *..., yang menyoroti pentingnya...* (ekor partisipial `-ing`) | Potong ekornya atau jadikan kalimat tersendiri |
+| *Ketika datang ke [X]...* (*when it comes to*) | *Terkait [X]...* / *Pada aspek [X]...* |
+| *Bukan hanya sekadar X, melainkan juga Y* | Nyatakan langsung kedua temuan secara sejajar |
+| *..., yang menyoroti pentingnya...* (ekor partisipial `-ing`) | Potong ekornya atau jadikan kalimat implikasi terukur |
 | *Memiliki potensi untuk dapat...* | *Berpotensi...* / *Dapat...* |
 
 ---
 
-## 3. Pola Struktural & Retorika AI
+## 3. Tangga Kalibrasi Klaim ↔ Bukti & Kaidah EYD V
 
-- **Nominalisasi bertumpuk:** Mengubah terlalu banyak kata kerja menjadi kata benda berimbuhan *pe-...-an* (*"Pelaksanaan pengoptimalan pengelolaan..."* → *"Pengelolaan dioptimalkan..."*).
-- **Penghindaran kopula:** Memakai *berfungsi sebagai, bertindak sebagai, hadir sebagai* ketika cukup menulis *adalah* atau kata kerja langsung.
-- **Synonym cycling:** Menyebut objek yang sama dengan 4 nama berbeda dalam satu paragraf (*"sistem ini... platform tersebut... solusi inovatif ini... ekosistem digital tersebut"*). Gunakan istilah konsisten.
-- **Treadmill effect (kepadatan informasi rendah):** Paragraf panjang yang hanya mengulang kalimat pertama dengan kata berbeda tanpa menambah fakta baru.
-- **Uji acak paragraf (*paragraph-reshuffle test*):** Jika urutan paragraf bisa ditukar tanpa merusak alur logika, artinya teks masih terlalu generik dan kurang transisi argumen yang nyata.
-- **Pengecualian *self-reference*:** Jika teks memang sedang membahas contoh tulisan AI (misal artikel edukasi atau dokumentasi skill), kutipan contoh tidak boleh ditandai.
+| Jenis Bukti | Kata Kerja yang Tepat | Hindari |
+| :--- | :--- | :--- |
+| Pembuktian matematis formal | *membuktikan, menjamin, berlaku bahwa* | — |
+| Eksperimen terkontrol / kausal | *menunjukkan, menurunkan/meningkatkan sebesar X* | *membuktikan mutlak, menuntaskan* |
+| Evaluasi *benchmark* / komputasi | *meningkatkan [metrik] sebesar X pada [dataset]* | *mengungguli semua metode sebelumnya* |
+| Observasional / korelasional / survei | *berasosiasi dengan, berkorelasi dengan, mengindikasikan* | *menyebabkan, menentukan, membuktikan* |
+| Studi kasus / kualitatif | *menggambarkan, menunjukkan indikasi pada kasus ini* | *membuktikan secara umum* |
+
+**Checklist EYD V / KBBI Akademik:**
+- Pisahkan kata depan `di` (*di lapangan, di atas, di dalam*) dan gabungkan awalan pasif `di-` (*dianalisis, dilakukan, dibandingkan*).
+- Cetak miring istilah asing yang belum diserap (*overfitting, p-value, focal loss*), dan pakai ejaan baku KBBI untuk serapan (*analisis, sistem, metode, efektivitas, praktik, risiko, objek, subjek, hipotesis*).
+- Pertahankan notasi angka/rumus sumber (desimal koma `3,45%` pada prosa Indonesia, atau titik di dalam blok persamaan/tabel sesuai konvensi naskah).
 
 ---
 
-## 4. Profil Konteks (`--context`)
+## 4. Profil Konteks Akademik (`--context`)
 
-Jika pengguna tidak menyebut konteks, simpulkan dari sinyal teks (panjang,
-sapaan, blok kode, sitasi, tagar).
+Jika pengguna tidak menyebut konteks, simpulkan dari sinyal naskah.
 
 | Profil | Deskripsi Singkat |
 | :--- | :--- |
-| `linkedin` | Unggahan media sosial profesional; ringkas, visual rapi, *hook* jelas. |
-| `blog` | Default. Artikel panjang atau esai umum; seluruh aturan berlaku penuh. |
-| `technical-blog` | Artikel teknis dengan kode, arsitektur, API; istilah teknis dilindungi. |
-| `email-bisnis` | Email eksekutif, klien, atau investor; sangat ketat terhadap bahasa promosi & inflasi. |
-| `docs` | Dokumentasi, README, panduan; utamakan kejelasan & langkah konkret. |
-| `casual` | Pesan Slack/WhatsApp kerja, catatan internal; hanya tangkap P0/masalah berat. |
-| `akademik` | Makalah, skripsi/tesis, jurnal; jaga EYD V/KBBI, *hedging* berbasis bukti, dan sitasi. |
+| `jurnal` | **Default.** Artikel jurnal nasional (Sinta 1–6) maupun internasional; ringkas, padat, berbasis celah riset dan bukti kuantitatif/kualitatif. |
+| `skripsi-tesis` | Skripsi, tesis, atau disertasi; bahasa baku EYD V, impersonal (*"Penelitian ini..."*), runtut, dan bebas hiperbola. |
+| `prosiding` | Makalah konferensi/prosiding; padat, langsung ke masalah dan kontribusi teknis, metrik utama jelas di awal. |
+| `rebuttal` | Surat tanggapan *reviewer* (*response to reviewers*); sopan, objektif, tidak defensif, merujuk lokasi revisi spesifik. |
+| `proposal-hibah` | Proposal hibah penelitian (BIMA Kemdiktisaintek, RIIM BRIN, LPDP Rispro, hibah internal); menjaga visi/urgensi terukur sambil menautkannya ke *roadmap*, TKT/TRL, data pendahuluan, dan mitigasi risiko. |
 
-### Matriks Toleransi
+### Matriks Toleransi Konteks Akademik
 
-| Aturan | linkedin | blog | technical-blog | email-bisnis | docs | casual | akademik |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Em-dash (`—`) | longgar (≤2) | ketat | ketat | ketat | longgar | skip | ketat |
-| Bold berlebihan | longgar | ketat | ketat | ketat | longgar | skip | ketat |
-| Daftar poin | skip | ketat | longgar | ketat | skip | skip | ketat |
-| Hedging | ketat | ketat | longgar | ketat | longgar | skip | longgar* |
-| Daftar kata Tier 1A | ketat | ketat | parsial** | ketat | longgar | P0 saja | ketat |
-| Bahasa promosi | longgar | ketat | ketat | **ekstra ketat** | ketat | skip | **ekstra ketat** |
-| Inflasi signifikansi | ketat | ketat | ketat | **ekstra ketat** | longgar | skip | **ekstra ketat** |
-| Transisi mekanis | skip | ketat | ketat | ketat | longgar | skip | ketat |
-| Tagar berlebih | ketat | ketat | ketat | **ekstra ketat** | skip | skip | skip |
+| Aturan | jurnal | skripsi-tesis | prosiding | rebuttal | proposal-hibah |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| Em-dash (`—`) | ketat | ketat | ketat | ketat | ketat |
+| Pembuka klise era/tahun | ketat | ketat | ketat | ketat | ketat |
+| Klaim melebihi bukti | **ekstra ketat** | **ekstra ketat** | **ekstra ketat** | **ekstra ketat** | ketat* |
+| Bahasa promosi / hiperbola | **ekstra ketat** | **ekstra ketat** | ketat | **ekstra ketat** | longgar** |
+| Hedging berbasis bukti | lindungi | lindungi | lindungi | lindungi | lindungi |
+| Kalimat pasif di Metode | lindungi | lindungi | lindungi | longgar | lindungi |
+| Penumpukan sitasi | ketat | ketat | ketat | longgar | ketat |
+| Daftar poin | ketat | ketat | longgar | longgar | longgar |
+| Transisi mekanis berulang | ketat | ketat | ketat | longgar | ketat |
 
-*\*Pada `akademik`, hedging berbasis bukti (`mengindikasikan`, `sejalan dengan`) dipertahankan; tumpukan hedging kosong (`mungkin berpotensi dapat`) tetap dihapus.*
-*\*\*Pada `technical-blog`/`docs`, istilah teknis bermakna spesifik (`robust`, `ekosistem`, `seamless failover`, `test harness`) tidak ditandai.*
+*\*Pada `proposal-hibah`, visi target riset boleh bersifat prospektif selama ditautkan ke data pendahuluan, tonggak capaian (*milestones*), TKT/TRL, atau mitigasi risiko.*
+*\*\*Pada `proposal-hibah`, urgensi strategis dipertahankan tanpa retorika kosong seperti "merevolusi seluruh sektor".*
 
 ---
 
 ## 5. Profil Suara (`--voice`)
 
-Profil suara bersifat **opsional** dan independen dari profil konteks (misal:
-`--context blog --voice lugas`). Jika tidak disebutkan, pertahankan register
-asli teks. Seluruh profil suara tetap tunduk pada guardrail *Jangan Pernah
-Menyuntikkan Ini*.
+Profil suara memakai **nama berbahasa Inggris** dan bersifat **opsional**
+serta independen dari `--context` (misal: `--context jurnal --voice concise`
+atau `--context rebuttal --voice diplomatic`). Jika tidak disebutkan,
+pertahankan register asli naskah. Seluruh profil suara tetap tunduk pada
+guardrail *Jangan Pernah Menyuntikkan Ini*.
 
-- **`santai` (`casual`):** Kalimat mengalir, kosakata sehari-hari yang wajar tanpa memaksa slang berlebihan, tetap mempertahankan istilah yang dibutuhkan pembaca. Hapus basa-basi korporat (*"perlu digarisbawahi bahwa"*).
-- **`profesional` (`professional`):** Kalimat aktif saat pelaku penting, klaim konkret sesuai sumber, permintaan/tindakan (*call to action*) jelas, buang *hedging* kosong sambil menjaga ketidakpastian yang nyata.
-- **`teknis` (`technical`):** Kopula lugas (*"X adalah Y"*), pisahkan ide kompleks agar mudah dipindai, kalimat imperatif untuk langkah panduan, jaga presisi istilah teknis dan tabel/daftar.
-- **`hangat` (`warm`):** Sapaan langsung yang wajar (*Anda* jika sumber sudah menyapa pembaca), tempo tenang, hapus empati artifisial (*"Saya sepenuhnya memahami betapa menantangnya..."*) dan penguat kosong.
-- **`lugas` (`blunt`):** Langsung ke inti klaim di kalimat pertama, buang pembuka bertele-tele, hindari *em-dash* dan *rule of three* kosong, tetap jaga batas kepastian/syarat dari sumber.
+- **`formal`** — Bahasa Indonesia baku penuh sesuai EYD V, nada objektif dan
+  impersonal (*"Penelitian ini..."* atau kalimat pasif terukur), alur kalimat
+  runtut tanpa bahasa jurnalistik. *Cocok untuk: `skripsi-tesis`, `jurnal`.*
+- **`concise`** — Padat dan hemat kata; langsung pada klaim, metode, dan
+  hasil tanpa kalimat pengantar bertele-tele, memotong nominalisasi bertumpuk
+  dan pengulangan makna. *Cocok untuk: Abstrak, `prosiding`, `jurnal`.*
+- **`technical`** — Mengutamakan presisi istilah bidang ilmu, kopula lugas
+  (*"X adalah Y"*), pemisahan variabel/parameter secara jelas, dan struktur
+  sistematis untuk spesifikasi metode atau eksperimen. *Cocok untuk: Metode,
+  Hasil, `prosiding`, `jurnal` STEM/komputer.*
+- **`analytical`** — Menonjolkan alur penalaran, perbandingan kritis antar
+  literatur, hubungan sebab-akibat/batasan bukti, dan sintesis temuan tanpa
+  melebih-lebihkan kesimpulan. *Cocok untuk: Tinjauan Pustaka, Pembahasan,
+  `jurnal`, `skripsi-tesis`.*
+- **`diplomatic`** — Sopan, lugas, dan konstruktif; mengakui masukan tanpa
+  pujian berlebihan (*"Terima kasih atas masukan terkait X..."*), menjelaskan
+  revisi secara konkret beserta lokasi perubahan, dan tetap objektif saat
+  berbeda pendapat. *Cocok untuk: `rebuttal`, surat pengantar editor.*
 
-**Kalibrasi dari contoh tulisan penulis:** Jika pengguna memberikan contoh
-tulisan sendiri (*"sesuaikan dengan gaya tulisan saya ini"*), tiru rata-rata
-panjang kalimat, pilihan kata ganti (*saya / kami / kita / penulis*), dan cara
-membuka paragrafnya — tanpa "menaikkan" level kosakata secara paksa.
+**Kalibrasi dari contoh tulisan penulis:** Jika pengguna menyertakan contoh
+naskah sebelumnya (*"sesuaikan dengan gaya tulisan saya ini"*), tiru rata-rata
+panjang kalimat, pilihan sudut pandang (*penelitian ini / penulis / kami*), dan
+pola transisinya tanpa mengubah tingkat ketepatan ilmiah.
