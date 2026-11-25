@@ -1,6 +1,6 @@
 ---
 name: pharaprase-id
-version: 1.1.0
+version: 1.2.0
 description: >-
   Mengaudit, memparafrasa, dan menulis ulang naskah akademik berbahasa Indonesia
   (artikel jurnal Sinta/Scopus, skripsi, tesis, disertasi, prosiding, tanggapan
@@ -10,8 +10,8 @@ description: >-
   EYD V/KBBI. Mendukung mode rewrite (default), detect (audit saja), dan edit
   (sunting file langsung), profil konteks akademik (jurnal, skripsi-tesis,
   prosiding, rebuttal, proposal-hibah), profil suara berbahasa Inggris
-  (formal, concise, technical, analytical, diplomatic), serta iterasi maksimal
-  dua putaran.
+  (formal, concise, technical, analytical, diplomatic, fluent, creative,
+  friendly), serta iterasi maksimal dua putaran.
 license: MIT
 compatibility: antigravity claude-code cursor codex copilot opencode
 allowed-tools:
@@ -108,7 +108,7 @@ pendahuluan skripsi ini dengan gaya formal"*, *"audit saja abstrak jurnal ini"*,
 *"rapikan `bab1.tex` langsung dengan voice concise"*). Opsi eksplisit:
 `--mode rewrite|detect|edit`,
 `--context jurnal|skripsi-tesis|prosiding|rebuttal|proposal-hibah`,
-`--voice formal|concise|technical|analytical|diplomatic`,
+`--voice formal|concise|technical|analytical|diplomatic|fluent|creative|friendly`,
 `--iterate 1|2`.
 
 ---

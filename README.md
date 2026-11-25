@@ -25,12 +25,15 @@ Menggabungkan disiplin kontrak penyuntingan, sistem *severity tier* (P0–P2), t
   - `prosiding` *(makalah konferensi)*
   - `rebuttal` *(tanggapan reviewer)*
   - `proposal-hibah` *(BIMA Kemdiktisaintek, RIIM BRIN, LPDP Rispro)*
-- **5 Profil Suara (`--voice`, berbahasa Inggris):**
+- **8 Profil Suara (`--voice`, berbahasa Inggris):**
   - `formal` — Baku EYD V, objektif, impersonal
   - `concise` — Ringkas, padat, hemat kata
   - `technical` — Presisi istilah teknis & struktur metode
   - `analytical` — Kuat di sintesis literatur & pembahasan kritis
   - `diplomatic` — Sopan, objektif, konstruktif (ideal untuk *rebuttal*)
+  - `fluent` — Alur baca mengalir alami seperti penutur asli (ideal untuk draf terjemahan)
+  - `creative` — Variasi diksi & struktur kalimat yang lebih segar tanpa hiperbola
+  - `friendly` — Komunikatif, mudah diikuti, dan ramah pembaca lintas disiplin
 
 ---
 

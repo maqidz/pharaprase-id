@@ -147,6 +147,20 @@ guardrail *Jangan Pernah Menyuntikkan Ini*.
   pujian berlebihan (*"Terima kasih atas masukan terkait X..."*), menjelaskan
   revisi secara konkret beserta lokasi perubahan, dan tetap objektif saat
   berbeda pendapat. *Cocok untuk: `rebuttal`, surat pengantar editor.*
+- **`fluent`** — Mengutamakan kelancaran alur baca dan kealamian sintaksis
+  Bahasa Indonesia akademik; memperbaiki kalimat terjemahan yang kaku dan
+  transisi tersendat agar mengalir alami seperti ditulis penutur asli tanpa
+  mengubah presisi istilah ilmiah. *Cocok untuk: draf hasil terjemahan,
+  Tinjauan Pustaka, seluruh bagian naskah.*
+- **`creative`** — Menghadirkan variasi struktur kalimat dan diksi akademik
+  yang lebih segar serta tidak monoton, terutama untuk membangun argumen
+  pembuka atau narasi urgensi, sambil tetap patuh pada bukti dan bebas
+  hiperbola klise AI. *Cocok untuk: Pendahuluan, `proposal-hibah`, esai
+  akademik.*
+- **`friendly`** — Komunikatif, mudah diikuti, dan hangat secara profesional
+  tanpa kehilangan kebakuan EYD V; menyederhanakan kalimat berbelit agar ramah
+  dibaca audiens lintas disiplin sambil menghindari nada santai berlebihan.
+  *Cocok untuk: ringkasan eksekutif, `rebuttal`, naskah lintas disiplin.*
 
 **Kalibrasi dari contoh tulisan penulis:** Jika pengguna menyertakan contoh
 naskah sebelumnya (*"sesuaikan dengan gaya tulisan saya ini"*), tiru rata-rata
